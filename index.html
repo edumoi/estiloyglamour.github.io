@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estilo & Glamour | Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Estilo & Glamour</h1>
+  <p>Bisutería que realza tu estilo</p>
+</header>
+
+<nav>
+  <button onclick="mostrarCategoria('aretes')">Aretes</button>
+  <button onclick="mostrarCategoria('pulseras')">Pulseras</button>
+  <button onclick="mostrarCategoria('collares')">Collares</button>
+</nav>
+
+<section class="filtros">
+  <label>Precio mínimo (S/): <input type="number" id="precioMin"></label>
+  <label>Precio máximo (S/): <input type="number" id="precioMax"></label>
+  <button onclick="aplicarFiltro()">Filtrar</button>
+</section>
+
+<main id="catalogo"></main>
+
+<a class="whatsapp-float" href="https://wa.me/51900008840" target="_blank">WhatsApp</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+ "aretes":[{"codigo":"EG-A01","nombre":"Aretes Dorados","precio":35,"imagen":"aretes01.jpg"}],
+ "pulseras":[{"codigo":"EG-P01","nombre":"Pulsera Perlas","precio":40,"imagen":"pulsera01.jpg"}],
+ "collares":[{"codigo":"EG-C01","nombre":"Collar Dorado","precio":55,"imagen":"collar01.jpg"}]
+}

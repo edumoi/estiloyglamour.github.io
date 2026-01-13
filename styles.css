@@ -1,0 +1,10 @@
+body{font-family:Arial;margin:0;background:#fafafa}
+header{background:#000;color:#fff;text-align:center;padding:20px}
+nav{display:flex;justify-content:center;gap:10px;padding:10px}
+nav button{padding:10px;border:none;background:#c9a24d;font-weight:bold}
+.filtros{display:flex;justify-content:center;gap:10px;padding:10px;background:#eee}
+#catalogo{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:15px;padding:20px}
+.producto{background:#fff;padding:10px;text-align:center}
+.producto img{width:100%;pointer-events:none}
+.marca-agua{position:absolute;top:40%;left:10%;opacity:.25;font-weight:bold;transform:rotate(-30deg)}
+.whatsapp-float{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px;border-radius:50%}
